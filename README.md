@@ -30,6 +30,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [1 - Número de estudantes estudando no mesmo horário (Algoritmo de busca)](#1---número-de-estudantes-estudando-no-mesmo-horário-algoritmo-de-busca)
     - [2 - Palíndromos (Recursividade)](#2---palíndromos-recursividade)
     - [3 - Anagramas (Algoritmo de ordenação)](#3---anagramas-algoritmo-de-ordenação)
+    
     `Requisitos bônus:`
     - [4 - Encontrando números repetidos (Algoritmo de busca)](#4---encontrando-números-repetidos-algoritmo-de-busca)
     - [5 - Palíndromos (Iteratividade)](#5---palíndromos-iteratividade)
