@@ -30,7 +30,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [1 - Número de estudantes estudando no mesmo horário (Algoritmo de busca)](#1---número-de-estudantes-estudando-no-mesmo-horário-algoritmo-de-busca)
     - [2 - Palíndromos (Recursividade)](#2---palíndromos-recursividade)
     - [3 - Anagramas (Algoritmo de ordenação)](#3---anagramas-algoritmo-de-ordenação)
-    
+
     `Requisitos bônus:`
     - [4 - Encontrando números repetidos (Algoritmo de busca)](#4---encontrando-números-repetidos-algoritmo-de-busca)
     - [5 - Palíndromos (Iteratividade)](#5---palíndromos-iteratividade)
@@ -39,6 +39,20 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Avisos Finais](#avisos-finais)
 
 # Habilidades
+
+  - Estrutura de dados
+
+  - Complexidade de algoritimos
+
+  - Capacidade de interpretação do problema;
+
+  - Capacidade de resolução do problema, de forma otimizada;
+  
+  - Analisar corretamente a ordem de complexidade de um algoritmo.
+
+  - Recursividade
+
+  - Algoritmos de ordenação e algoritmos de busca
 
 ---
 
@@ -138,9 +152,9 @@ $ python3 nome_do_arquivo.py
 
 1. Clone o repositório
 
-- `git clone https://github.com/betrybe/sd-0x-project-algorithms-rubric.git`.
+- `git clone https://github.com/betrybe/sd-0x-project-algorithms.git`.
 - Entre na pasta do repositório que você acabou de clonar:
-  - `sd-0x-project-algorithms-rubric`
+  - `sd-0x-project-algorithms`
 
 2. Crie o ambiente virtual para o projeto
 
@@ -175,13 +189,13 @@ $ python3 nome_do_arquivo.py
 
 6. Crie um novo `Pull Request` _(PR)_
 
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-algorithms-rubric/pulls)
+- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-algorithms/pulls)
 - Clique no botão verde _"New pull request"_
 - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
 - Clique no botão verde _"Create pull request"_
 - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
 - **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-algorithms-rubric/pulls) e confira que o seu _Pull Request_ está criado
+- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-algorithms/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -217,7 +231,29 @@ ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 
 ---
 
-## Requisitos obrigatórios:
+## Testes
+
+Com as dependências já instaladas basta executar o comando:
+
+```bash
+python3 -m pytest
+```
+
+Com esse comando irá executar todos os testes do projeto.
+
+Caso o teste falhe e você queira ter um print melhor do erro basta executar o seguinte comando:
+
+```bash
+python3 -m pytest -s -vv
+```
+
+Caso precise executar apenas um arquivo de testes basta executar o comando:
+
+```bash
+python3 -m pytest tests/nomedoarquivo.py
+```
+
+## Requisitos do projeto
 
 #### 1 - Número de estudantes estudando no mesmo horário (Algoritmo de busca)
 
@@ -279,7 +315,7 @@ Para esse exemplo, julgue que o melhor horário é entre `3` e `4`
 
 - Código deve ser feito dentro do arquivo `challenges/challenge_study_schedule.py`.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - 1.1 - Retorne, para uma entrada específica, o melhor horário para disponibilizar o conteúdo
 
@@ -324,7 +360,7 @@ word = "AGUA"
 
 - Código deve ser feito dentro do arquivo `challenges/challenge_palindromes_recursive.py`.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - 2.1 - Retorne `true` se a palavra passada por parâmetro for um palíndromo
 
@@ -380,7 +416,7 @@ second_string = "empada"
 
 - Código deve ser feito dentro do arquivo `challenges/challenge_anagrams.py`.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - 3.1 - Retorne `true` se as palavras passadas forem anagramas
 
@@ -436,7 +472,7 @@ nums = [3, 1, 2, 4, 6, 5, 7, 7, 7, 8]
 
 _Dica:_ Ordene o array.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - 4.1 - Retorne o número repetivo se a função receber, como parâmetro, uma lista com números repetidos
 
@@ -464,7 +500,7 @@ Resolva o mesmo problema, apresentado no [requisito dois](####-2---Palíndromos-
 
 - Código deve ser feito dentro do arquivo `challenge_palindromes_iterative.py`.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - 5.1 - Retorne `true` se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa
 
@@ -483,7 +519,7 @@ Para **"entregar"** seu projeto, siga os passos a seguir:
 * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
   * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
